@@ -1,5 +1,5 @@
 def __main():
-    n = 3
+    n = 4
     a = 2**n
     gray =[([0]*(n+1)) for i in range(a)]
     gray_m(n,gray)

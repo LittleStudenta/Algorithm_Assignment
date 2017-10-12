@@ -1,7 +1,7 @@
 #简单的解决办法
 def __main():
     count = [0]*10
-    num = 11
+    num = 199
     shit(num,count)
     print(count)
     

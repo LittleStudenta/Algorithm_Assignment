@@ -3,7 +3,7 @@
 
 1.输出n页书共有多少个数字0,1,2  ... 9
 2.print n bits Gray code
-3.
+3.inprove dichotomy
 4.
 5.
 6.

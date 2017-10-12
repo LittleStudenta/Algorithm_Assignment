@@ -1,7 +1,7 @@
 #最初的办法，有大bug，超出200会有误差
 def __main():
     count = [0]*10
-    num = 12345 
+    num = 199 
     
     shit(num,count,1)
     count[0]-=11  #这一行纠正了shit递归0多的问题 
