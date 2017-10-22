@@ -1,3 +1,5 @@
+
+#二分法查找某数，没有则返回它附近的两个数
 def __main():
     n = 8
     x = 6
@@ -9,7 +11,7 @@ def BinarySearch(a,x,n):
     right = n
     while right >= left:
         m = (left+right)/2
-
+        
         if x == a[m]: 
             return m
         elif x < a[m]: 
