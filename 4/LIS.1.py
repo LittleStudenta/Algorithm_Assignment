@@ -4,8 +4,8 @@ length = len(lista)
 n = [ [0]*length for i in range(length) ]  #开辟n*n的数组
 
 Little = {}
-for i in range(length):
-    Little[i] = {0}    
+for i in range(1,length):
+    Little[i] = {null}    #kankan要0开还是1开
 
 def __main():
 
