@@ -13,8 +13,6 @@ def __main():
     f = shit(a, n-1)
     print(f)
 
-
-
 def shit(tree, h):
     for i in range(h):
         tree[h-1][i] = max(tree[h][i], tree[h][i+1]) + tree[h-1][i]
@@ -22,7 +20,5 @@ def shit(tree, h):
         shit(tree, h-1)
 
     return tree[0][0]
-
-
 
 __main()    
